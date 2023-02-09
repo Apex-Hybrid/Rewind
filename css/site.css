@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #e1d17c;
-    --secondary-color: #ff993b;
+    --primary-color: #0b0015;
+    --secondary-color: #7e50af;
     --dark-color: #292929;
     --white-color: #f8f8f8;
 }
@@ -16,6 +16,8 @@ nav {
 footer {
     background-color: var(--dark-color);
 }
+
+
 
 h1,
 h2,
@@ -34,11 +36,16 @@ footer {
 footer .social>a {
     color: var(--white-color);
     opacity: 0.75;
-
 }
+
+
 
 footer .social>a:hover {
     opacity: 0.9;
+    color: var(--secondary-color);
+}
+
+.btn {
     color: var(--secondary-color);
 }
 
@@ -59,7 +66,7 @@ footer .social>a:hover {
 }
 
 .checklist>li i {
-    color: rgb(251, 202, 78);
+    color: rgb(137, 81, 176);
 }
 
 code[class*="language-"],
